@@ -20,6 +20,7 @@
                    OR content LIKE '%{pattern}%'
          </if>
          ORDER BY id DESC
+        <!-- bing 활용한 방법 -->
     </select>
 
     <select id="findById">
